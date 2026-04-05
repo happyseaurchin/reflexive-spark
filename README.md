@@ -48,11 +48,13 @@ The providing agent controls what the receiving agent sees. This is the minimal 
 
 ---
 
-## Try It Yourself: Reflexive Chat Thread
+## Chat Thread Experiment: Try It Yourself
 
-[`reflexive-chat-thread.json`](reflexive-chat-thread.json) is a reflexive block written for the chat-thread context — not for the agent architecture above, but for a conversation with any LLM. Upload it alongside [`pscale-starstone.json`](pscale-starstone.json) into a Claude (or other LLM) conversation and see what happens.
+No code. No API key. Upload two JSON files to any LLM conversation and work on something real.
 
-This is the simplest entry point. No code, no API key. Just two JSON files and a conversation.
+A chat thread IS a longitudinal instance chain — each response is an instance, the context window grows, the human is the kernel. Upload [`pscale-starstone.json`](pscale-starstone.json) (teaches the format) and [`reflexive-chat-thread.json`](reflexive-chat-thread.json) (orients the processing posture) alongside your actual task.
+
+**[Full instructions](chat-thread-experiment/README.md)** — what to upload, what happens, what to watch for.
 
 ---
 
@@ -88,6 +90,7 @@ python experiment-3/sovereign-shells.py --rounds 10
 | `experiment-1/` | Spark sentence evolution: script, results, raw data |
 | `experiment-2/` | Three Cranes mutual convergence: script, results, raw data |
 | `experiment-3/` | Sovereign Shells: script, spec, minimal reflexive candidates |
+| `chat-thread-experiment/` | Try it yourself: upload two JSON files to any LLM and work on a real task |
 
 ---
 
